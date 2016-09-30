@@ -11,14 +11,7 @@ var questions = [
 ];
 
 function ask(i) {
-    if (i === 0) {
-        process.stdout.write('\n\n');
-        process.stdout.write('This utility will walk you through creating ');
-        process.stdout.write('a package.json file. ')
-        process.stdout.write('It only covers the most common items, and tries to guess sensible defaults.')
-        process.stdout.write('\n\n');
-    }
-    process.stdout.write(questions[i].disp);
+    process.stdout.write(questions[i]);
     process.stdout.write(' > ');
 }
 process.stdin.on('data', function(data) {
