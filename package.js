@@ -1,25 +1,14 @@
 var fs = require('fs');
-var folder = process.cwd();
+
 var answers = {};
-var questions = [{
-    name: 'name',
-    disp: 'Application Name: ' // get the folder name as default
-}, {
-    name: 'version',
-    disp: 'Version: (1.0.0)'
-}, {
-    name: 'description',
-    disp: 'Description: '
-}, {
-    name: 'entry point',
-    disp: 'Entry Point: ' // take the first .js file in directory or index.js
-}, {
-    name: 'author',
-    disp: 'Author: ' // Get computers user as default
-}, {
-    name: 'license',
-    disp: 'License: (ISC)'
-}];
+var questions = [
+    'name',
+    'version',
+    'description',
+    'entry point',
+    'author',
+    'license',
+];
 
 function ask(i) {
     if (i === 0) {
