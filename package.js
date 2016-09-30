@@ -21,14 +21,14 @@ process.stdin.on('data', function(data) {
     if (Object.keys(answers).length < questions.length) {
         ask(Object.keys(answers).length);
     } else {
-        
-            var jsonAnswers = JSON.stringify(answers, null, 4);
-            fs.writeFileSync('package.json', jsonAnswers);
-            process.exit(0);
-       
+
+        var jsonAnswers = JSON.stringify(answers, null, 4);
+        fs.writeFileSync('package.json', jsonAnswers);
+        process.exit(0);
+
     }
 });
 process.on('exit', function() {
-    // put some code to be executed at exit(), if you want
+    process.stdout.write('Good buy!\n\n');
 });
 ask(0);
