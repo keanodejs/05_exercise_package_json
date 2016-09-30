@@ -1,0 +1,8 @@
+{
+    "name": "clbo",
+    "version": "1.0.0",
+    "description": "this is a description",
+    "entry point": "index.js",
+    "author": "clbo",
+    "license": "lll"
+}
