@@ -16,7 +16,7 @@ function ask(i) {
 }
 process.stdin.on('data', function(data) {
 
-    answers[questions[Object.keys(answers).length].name] = data.toString().trim();
+    answers[questions[Object.keys(answers).length]] = data.toString().trim();
 
     if (Object.keys(answers).length < questions.length) {
         ask(Object.keys(answers).length);
