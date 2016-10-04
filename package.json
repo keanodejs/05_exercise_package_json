@@ -1,8 +1,8 @@
 {
-    "name": "clbo",
+    "name": "ClausApp",
     "version": "1.0.0",
-    "description": "this is a description",
+    "description": "bla bla bla",
     "entry point": "index.js",
     "author": "clbo",
-    "license": "lll"
+    "license": "MIT"
 }
