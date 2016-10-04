@@ -2,6 +2,8 @@
 
 In this exercise you should produce the code in javascript and Node.js, that will create the output you can see in the screencast below.
 
+Solutions can be found in the branches __simple, full__ and __class_example__
+
 [![asciicast](https://asciinema.org/a/8k55ospmggq16tpiqn2kszrnk.png)](https://asciinema.org/a/8k55ospmggq16tpiqn2kszrnk)
 (Notice: You can copy/paste from the screencast, if you like).
 
