@@ -2,6 +2,8 @@
 
 In this exercise you should produce the code in javascript and Node.js, that will create the output you can see in the screencast below.
 
+### Solutions can be found in the branches _[simple](https://github.com/keanodejs/05_exercise_package_json/tree/simple), [full](https://github.com/keanodejs/05_exercise_package_json/tree/full)_ and _[class_example](https://github.com/keanodejs/05_exercise_package_json/tree/class_example)_ ###
+
 [![asciicast](https://asciinema.org/a/8k55ospmggq16tpiqn2kszrnk.png)](https://asciinema.org/a/8k55ospmggq16tpiqn2kszrnk)
 (Notice: You can copy/paste from the screencast, if you like).
 
